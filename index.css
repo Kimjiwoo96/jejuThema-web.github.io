@@ -1,7 +1,11 @@
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
 }
