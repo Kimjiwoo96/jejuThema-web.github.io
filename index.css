@@ -15,9 +15,6 @@
     color: var(--main-font-color);
 }
 
-div {
-    color: red;
-}
 
 ul {
     list-style: none;
