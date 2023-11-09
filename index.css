@@ -4,6 +4,10 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+div {
+    color: red;
+}
+
 ul {
     list-style: none;
 }
