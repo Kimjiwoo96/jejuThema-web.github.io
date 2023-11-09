@@ -8,6 +8,7 @@
 }
 
 
+/* 공통클래스 */
 *{
     margin: 0;
     padding: 0;
@@ -26,3 +27,13 @@ a {
 .d-flex {
     display: flex;
 }
+
+.w1280{
+    width: 1280px;
+}
+
+
+
+
+
+/* 레이아웃 */
