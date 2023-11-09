@@ -1,7 +1,18 @@
+/* 컬러 변수 선언 */
+:root {
+	--main-font-color: #000f22;  /* 메인 폰트컬러 */
+
+    --main-color1 : #0675c1; /* 메인컬러 1 */
+    --main-color2 : #059b84; /* 메인컬러 2 */
+    --main-color3 : #d48121; /* 메인컬러 3 */
+}
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Nanum Gothic', sans-serif;
+    color: var(--main-font-color);
 }
 
 div {
