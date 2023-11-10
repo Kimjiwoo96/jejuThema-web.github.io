@@ -1,12 +1,24 @@
 :root {
-	--main-font-color: #000f22;  /* 메인 폰트컬러 */
+    --main-font-color: #000f22;
+    /* 메인 폰트컬러 */
 
-    --main-color1 : #0675c1; /* 메인컬러 1 */
-    --main-color2 : #059b84; /* 메인컬러 2 */
-    --main-color3 : #d48121; /* 메인컬러 3 */
+    --main_color1: #0675c1;
+    /* 메인컬러 1 */
+
+    --main_color2: #059b84;
+    /* 메인컬러 2 */
+
+    --main_color3: #d48121;
+    /* 메인컬러 3 */
+
+    --contents_bg_color: #F8F8F8;
+    /*컨텐츠 배경색*/
+
+    --contents_border_color: #ECECEC;
+    /*컨텐츠 border 색깔*/
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Nanum Gothic', sans-serif;
@@ -25,7 +37,6 @@ a {
     display: flex;
 }
 
-.w1280{
+.w1280 {
     width: 1280px;
 }
-
