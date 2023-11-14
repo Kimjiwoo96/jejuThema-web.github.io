@@ -1,18 +1,34 @@
-/* #hd 영역 */
-
-/* #Event 영역 */
-#Event > h1{
-    text-align: center;
-    line-height: 80px;
-}
-#Event > h5{
-    text-align: center;    
+/* common layout */
+#wrap > div{
     margin-bottom: 100px;
 }
 
+
+/* #hd 영역 */
+
+
+/* #Event 영역 */
 #Event .EventCon>section{
     width: 350px;
     margin-right: 100px;
+    transition: all 0.5s ease 0s;;
+}
+
+#Event .EventCon>section:hover{
+    transform: scale(1.1);
+    box-shadow:0 5px 15px -7px rgba(0,0,0,1);;
+}
+
+#Event .EventCon>section a{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#Event .EventCon>section a img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
 }
 
 #Event .EventCon>section:last-of-type{
