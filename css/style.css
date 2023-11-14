@@ -1,47 +1,46 @@
 /* #hd 영역 */
 
 /* #Event 영역 */
-
-/* #Tourism 영역 */
-#Tourism > h1{
+#Event > h1{
     text-align: center;
     line-height: 80px;
 }
-#Tourism > h5{
+#Event > h5{
     text-align: center;    
     margin-bottom: 100px;
 }
 
-#Tourism .EventCon>section{
+#Event .EventCon>section{
     width: 350px;
     margin-right: 100px;
 }
 
-#Tourism .EventCon>section:last-of-type{
+#Event .EventCon>section:last-of-type{
     margin-right: 0;
 }
 
-#Tourism .EventCon>section div{
+#Event .EventCon>section div{
     border:1px solid var(--contents_border_color);
     box-sizing: border-box;
     padding: 20px 35px;
 }
 
-#Tourism .EventCon>section div h3{
+#Event .EventCon>section div h3{
     font-weight: 700;
     line-height: 40px;
 }
 
-#Tourism .EventCon>section div p:first-of-type{
+#Event .EventCon>section div p:first-of-type{
     margin-top: 10px;
     line-height: 20px;
 }
 
-#Tourism .EventCon>section div p:last-of-type{
+#Event .EventCon>section div p:last-of-type{
     line-height: 20px;
     margin-top: 30px;
 }
 
+/* #Tourism 영역 */
 
 /* #video 영역 */
 
