@@ -67,3 +67,7 @@ a {
 .w1280 {
     width: 1280px;
 }
+
+.marginAuto{
+    margin: 0 auto;
+}
