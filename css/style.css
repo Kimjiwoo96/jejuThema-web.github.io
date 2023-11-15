@@ -57,11 +57,22 @@
 }
 
 /* #Tourism 영역 */
+#Tourism .swiper{
+    overflow: unset;
+}
+
+#Tourism > h5{
+    margin-bottom: 200px;
+}
 #Tourism .swiper-slide{
     height: 370px;
     width: auto;
-    transition: all 0.7s ease 0s;
+    transition: all 0.9s ease 0s;
     position: relative;
+}
+
+#Tourism .swiper-slide:nth-of-type(2n){
+    transform: translateY(-100px);
 }
 
 .T_innerDiv{
@@ -79,7 +90,7 @@
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    background-color: transparent;
+    background-color: #00000045; 
     position: absolute;
     left: 0;
     top:0;
@@ -90,11 +101,9 @@
     background-color: #00000075;  
 }
 
-
 .T_innerDiv:hover{
     transition: all 0.3s ease 0s;
 }
-
 
 .T_innerDiv:hover .tourismTitle{
     color: #fff;
@@ -111,16 +120,19 @@
 }
 
 .tourismTitle{
+    position: relative;
     font-weight: 700;
     font-size: 25px;
     line-height: 50px;
     padding: 50px 25px 0px 25px;
     box-sizing: border-box;
     z-index: 99999999;
-    color: var(--main_color3);
+    color: #FFF;
+    z-index: 99999999!important;
 }
 
 .tourismText{
+    position: relative;
     color: #fff;
     font-weight: 300;
     font-size: 20px;
@@ -128,16 +140,17 @@
     padding: 20px 25px 0px 25px;
     height: 120px;
     box-sizing: border-box;
-    z-index: 99999999;
+    z-index: 99999999!important;
 }
 
 .tourismLocation{
+    position: relative;
     color: #fff;
     font-weight: 300;
     font-size: 20px;
     padding: 80px 25px 0px 25px;
     box-sizing: border-box;
-    z-index: 99999999;
+    z-index: 99999999!important;
 }
 
 #Tourism .swiper-slide img:hover{
@@ -153,6 +166,26 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.hashTag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hashTag > p{
+    background-color: var(--contents_bg_color);
+    border:1px solid var(--contents_border_color);
+    line-height: 30px;
+    padding: 0 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.hashTag > p:last-of-type{
+    margin-right: 0px;
 }
 
 

@@ -118,4 +118,5 @@ for(x in tourismText){
 
     $("#Tourism .swiper-slide .T_innerDiv").eq(x).css("backgroundImage",imgs);
     $("#Tourism .swiper-slide .T_innerDiv").eq(x).append(`<h6 class="tourismTitle">${tourismText[x].title}</h6>`).append(`<p class="tourismText">${tourismText[x].txt}</p>`).append(`<p class="tourismLocation">${tourismText[x].Location}</p>`)
+    $("#Tourism .swiper-slide .hashTag").eq(x).append(`<p>${tourismText[x].hashTag[0]}</p>`).append(`<p>${tourismText[x].hashTag[1]}</p>`).append(`<p>${tourismText[x].hashTag[2]}</p>`)
 };
