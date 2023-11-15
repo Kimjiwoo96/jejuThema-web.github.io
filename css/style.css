@@ -64,40 +64,81 @@
     position: relative;
 }
 
-
-#Tourism .swiper-slide::before{
-    border:1px solid red;
-    box-sizing: border-box;
-    color: #fff;
-    position: absolute;
-    left:20px;
-    top:80px;
-    z-index: 9999999;
-
-
-
-    opacity: 1;
-}
-
-#Tourism .swiper-slide:hover::before{
-   opacity: 1;
-}
-
-
-
 .T_innerDiv{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.T_innerDiv img{
+
+.T_innerDiv::after{
+    content: "";
+    border-radius: 20px;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top:0;
+    box-sizing: border-box;
+}
+
+.T_innerDiv:hover::after{
+    background-color: #00000075;  
 }
 
 
+.T_innerDiv:hover{
+    transition: all 0.3s ease 0s;
+}
 
+
+.T_innerDiv:hover .tourismTitle{
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.T_innerDiv .tourismText,.T_innerDiv .tourismLocation{
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+
+.T_innerDiv:hover .tourismText,.T_innerDiv:hover .tourismLocation{
+    opacity: 1;
+}
+
+.tourismTitle{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+    padding: 50px 25px 0px 25px;
+    box-sizing: border-box;
+    z-index: 99999999;
+    color: var(--main_color3);
+}
+
+.tourismText{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px 25px 0px 25px;
+    height: 120px;
+    box-sizing: border-box;
+    z-index: 99999999;
+}
+
+.tourismLocation{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 80px 25px 0px 25px;
+    box-sizing: border-box;
+    z-index: 99999999;
+}
 
 #Tourism .swiper-slide img:hover{
     box-sizing: border-box;
@@ -113,14 +154,6 @@
     height: 100%;
     object-fit: cover;
 }
-
-
-/* #Tourism .swiper-slide:nth-of-type(2n){
-    transform: translateY(-40px);
-    border:1px solid red;
-    box-sizing: border-box;
-} */
-
 
 
 /* #video 영역 */

@@ -115,6 +115,7 @@ const tourismText=[
 
 for(x in tourismText){
     var imgs = "url(" + tourismText[x].img + ")";
+
     $("#Tourism .swiper-slide .T_innerDiv").eq(x).css("backgroundImage",imgs);
-    $("#Tourism .swiper-slide .T_innerDiv").eq(x).append(`<h6>${tourismText[x].title}</h6>`).append(`<p>${tourismText[x].txt}</p>`).append(`<p>${tourismText[x].Location}</p>`)
-}
+    $("#Tourism .swiper-slide .T_innerDiv").eq(x).append(`<h6 class="tourismTitle">${tourismText[x].title}</h6>`).append(`<p class="tourismText">${tourismText[x].txt}</p>`).append(`<p class="tourismLocation">${tourismText[x].Location}</p>`)
+};
