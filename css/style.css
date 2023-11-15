@@ -59,6 +59,17 @@
 /* #Tourism 영역 */
 
 
+#Tourism .swiper-wrapper{
+    border:1px solid red;
+    box-sizing: border-box;
+}
+
+
+#Tourism .swiper-slide{
+    border:1px solid green;
+    box-sizing: border-box;
+}
+
 /* #video 영역 */
 
 /* #discountEvent 영역 */
