@@ -1,60 +1,49 @@
 /* common layout */
-#wrap > div{
+/* #wrap > div{
     margin-bottom: 200px;
-}
+} */
 
 
 /* #hd 영역 */
 
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.minibanner {
+    background-color: var(--main_color1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.minibanner a {
+    line-height: 45px;
+    color: white;
+
+}
+
+#hd .container {
+    justify-content: space-between;
+}
+
+#gnbs {
+    font-family: 'GmarketSansMedium';
+    font-size: 23px;
+
+
+}
+
+#gnbs a {
+    line-height: 100px;
+    padding-left: 47px;
+}
 
 /* #Event 영역 */
-#Event .EventCon>section{
-    width: 350px;
-    margin-right: 100px;
-    transition: all 0.5s ease 0s;;
-}
 
-#Event .EventCon>section:hover{
-    transform: scale(1.1);
-    box-shadow:0 5px 15px -7px rgba(0,0,0,1);;
-}
-
-#Event .EventCon>section a{
-    display: block;
-    box-sizing: border-box;
-    width: 100%;
-}
-
-#Event .EventCon>section a img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}
-
-#Event .EventCon>section:last-of-type{
-    margin-right: 0;
-}
-
-#Event .EventCon>section div{
-    border:1px solid var(--contents_border_color);
-    box-sizing: border-box;
-    padding: 20px 35px;
-}
-
-#Event .EventCon>section div h3{
-    font-weight: 700;
-    line-height: 40px;
-}
-
-#Event .EventCon>section div p:first-of-type{
-    margin-top: 10px;
-    line-height: 20px;
-}
-
-#Event .EventCon>section div p:last-of-type{
-    line-height: 20px;
-    margin-top: 30px;
-}
 
 /* #Tourism 영역 */
 
