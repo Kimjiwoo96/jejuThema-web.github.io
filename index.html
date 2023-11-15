@@ -11,13 +11,24 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- 부트스트랩 아이콘 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- css -->
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
+
     <!-- script -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
     <script src="https://code.jquery.com/jquery-2.2.4.js"
         integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+
+    <!-- 메인슬라이드 -->
+    <script src="./js/mainbanner.js"></script>
 
 </head>
 
@@ -39,34 +50,29 @@
                 </ul>
             </div>
         </header>
+        <div id="mainbanner" class="rel">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide bg1">
+                        <div class="copy">
+                            <h2>체험 여행</h2>
+                            <p>#액티비티 #테마공원 #레저/관광</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide bg2">
+                    </div>
+                    <div class="swiper-slide bg3">
+                    </div>
+                    <div class="swiper-slide bg4">
+                    </div>
+                </div>
 
-        <div class="swiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="">
-                        <img src="" alt="">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="">
-                        <img src="" alt="">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="">
-                        <img src="" alt="">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="">
-                        <img src="" alt="">
-                    </a>
+                <div class="btns d-flex abs">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
-
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
         </div>
 
         <div id="Event">

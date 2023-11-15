@@ -34,13 +34,48 @@
     font-family: 'GmarketSansMedium';
     font-size: 23px;
 
-
 }
 
 #gnbs a {
     line-height: 100px;
     padding-left: 47px;
 }
+
+/* 슬라이드 */
+
+#mainbanner .swiper-slide {
+    height: 0;
+    padding-top: 41%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+.bg1 {
+    background-image: url(../img/main/mainbanner1.png);
+
+
+}
+
+.bg2 {
+    background-image: url(../img/main/mainbanner2.png);
+}
+
+.bg3 {
+
+    background-color: rgb(157, 157, 207);
+    /* background-image: url(../img/main/mainbanner2.png); */
+}
+
+.bg4 {
+
+    background-color: beige;
+    /* background-image: url(../img/main/mainbanner2.png); */
+}
+
+
+
 
 /* #Event 영역 */
 
