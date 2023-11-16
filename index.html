@@ -17,15 +17,12 @@
     <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
-
     <!-- script -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-
     <script src="https://code.jquery.com/jquery-2.2.4.js"
         integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
-
 
     <!-- 메인슬라이드 -->
     <script src="./js/mainbanner.js"></script>
@@ -39,17 +36,18 @@
                 <a href="https://www.jeju.go.kr/booking/index.htm" target="_blank">통합 예약</a>
             </div>
             <div class="container d-flex aic w1280 marginAuto">
-                <a href="#"><img src="" alt="로고이미지"></a>
+                <a href="#" class="logo"><img src="./img/main/로고.svg" alt="로고이미지"></a>
                 <ul id="gnbs" class="d-flex">
-                    <li><a href="">행사</a></li>
-                    <li><a href="">관광명소</a></li>
-                    <li><a href="">홍보영상</a></li>
-                    <li><a href="">이벤트</a></li>
-                    <li><a href="">투어경로추천</a></li>
-                    <li><a href="">커뮤니티</a></li>
+                    <li><a href="" class="scrollmenu">행사</a></li>
+                    <li><a href="" class="scrollmenu">관광명소</a></li>
+                    <li><a href="" class="scrollmenu">홍보영상</a></li>
+                    <li><a href="" class="scrollmenu">이벤트</a></li>
+                    <li><a href="" class="scrollmenu">투어경로추천</a></li>
+                    <li><a href="" class="scrollmenu">커뮤니티</a></li>
                 </ul>
             </div>
         </header>
+
         <div id="mainbanner" class="rel">
             <div class="swiper">
                 <div class="swiper-wrapper">
@@ -67,10 +65,15 @@
                     </div>
                 </div>
 
-                <div class="btns d-flex abs">
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                <div class="btns d-flex abs w1280">
+                    <div class="btnbox d-flex">
+                        <div class="swiper-pagination p-unset"></div>
+                  
+                    <div class="btnbox d-flex">
+                        <div class="swiper-button-prev p-unset"></div>
+                        <div class="swiper-button-next p-unset"></div>
+                    </div>
+
                 </div>
             </div>
         </div>

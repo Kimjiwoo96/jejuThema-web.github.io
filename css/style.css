@@ -13,17 +13,22 @@
     font-style: normal;
 }
 
+#hd .logo img {
+    height: 34px;
+    max-width: 100%;
+}
+
 .minibanner {
     background-color: var(--main_color1);
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    letter-spacing: -2px;
 }
 
 .minibanner a {
     line-height: 45px;
     color: white;
-
 }
 
 #hd .container {
@@ -32,13 +37,13 @@
 
 #gnbs {
     font-family: 'GmarketSansMedium';
-    font-size: 23px;
+    font-size: 20px;
 
 }
 
 #gnbs a {
     line-height: 100px;
-    padding-left: 47px;
+    padding-left: 45px;
 }
 
 /* 슬라이드 */
@@ -48,30 +53,44 @@
     padding-top: 41%;
     background-repeat: no-repeat;
     background-size: 100%;
-
 }
 
 
-.bg1 {
+#mainbanner .bg1 {
     background-image: url(../img/main/mainbanner1.png);
-
-
 }
 
-.bg2 {
+#mainbanner .bg2 {
     background-image: url(../img/main/mainbanner2.png);
 }
 
-.bg3 {
-
+#mainbanner .bg3 {
     background-color: rgb(157, 157, 207);
     /* background-image: url(../img/main/mainbanner2.png); */
 }
 
-.bg4 {
-
+#mainbanner .bg4 {
     background-color: beige;
     /* background-image: url(../img/main/mainbanner2.png); */
+}
+
+.p-unset {
+    position: unset !important;
+}
+
+
+#mainbanner .btns {
+    bottom: 1rem;
+    z-index: 1000;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#mainbanner .swiper-button-next:after,
+#mainbanner .swiper-button-prev:after {
+   color: white;
+   font-size: 1rem;
 }
 
 
