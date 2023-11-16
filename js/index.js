@@ -123,3 +123,12 @@ $("#discountEvent ul li").hover(function(){
 }, function(){
     $(this).css("border","1px solid #ECECEC")
 });
+
+
+function scrolls(){
+    $("body,html").stop(true , true).animate({scrollTop : $("body").offset().top})
+};
+
+
+
+
