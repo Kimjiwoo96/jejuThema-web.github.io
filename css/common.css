@@ -90,3 +90,7 @@ h5{
 .marginAuto{
     margin: 0 auto;
 }
+
+.txtAC{
+    text-align: center;
+}
