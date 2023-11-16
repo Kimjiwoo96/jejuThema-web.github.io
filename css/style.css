@@ -1,13 +1,13 @@
 /* common layout */
 #wrap > div{
-    margin-bottom: 350px;
+    margin-bottom: 200px;
 }
 
 /* aside 영역 */
 aside{
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: calc((100% - 50%) - 122.5px);
+    right: 40px;
     z-index: 999999999!important;
 }
 
@@ -304,3 +304,60 @@ aside ul li:nth-of-type(3) i{
 /* #Comments 영역 */
 
 /* #ft 영역 */
+#ft{
+    background-color: var(--main_color1);
+    height: 230px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#ft .ft_left{
+    width: 50%;
+}
+#ft .ft_left p{
+    color: #fff;
+    line-height: 25px;
+}
+
+#ft .ft_left h1{
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+/* ------ */
+
+#ft .ft_right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#ft .ft_right_information{
+    position: absolute;
+    bottom: 0;
+    justify-content: right;
+    width: 100%;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+
+#ft .ft_right_information li{
+    margin-right: 10px;
+}
+
+#ft .ft_right_icons{
+    justify-content: right;
+}
+
+#ft .ft_right_information a{
+    color: #fff;
+}
+
+#ft .ft_right_icons li{
+    margin-right: 20px;
+}
+
+
+
