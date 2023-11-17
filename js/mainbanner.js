@@ -13,10 +13,10 @@ $(document).ready(function () {
       nextEl: '#mainbanner .swiper-button-next',
       prevEl: '#mainbanner .swiper-button-prev',
     },
-    // autoplay: {
-    //   delay: 4000,
-    //   disableOnInteraction: false,
-    // },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
   });
 
 })
