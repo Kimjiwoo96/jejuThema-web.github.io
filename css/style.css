@@ -172,19 +172,25 @@
 
 #mainbanner .apply {
 
-    width: 360px;
+
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .3);
     backdrop-filter: blur(10px);
     color: white;
     border-radius: 20px;
     padding: 30px 40px;
+
+}
+
+#mainbanner .formdiv {
     z-index: 100000;
     top: 50%;
     transform: translateY(-50%);
-    /* left: 0; */
     right: 0;
     margin: 0 auto;
+    left: 0;
+    display: flex;
+    justify-content: end;
 }
 
 #mainbanner .apply h2 {
