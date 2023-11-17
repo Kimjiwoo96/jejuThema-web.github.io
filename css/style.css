@@ -78,22 +78,95 @@
     position: unset !important;
 }
 
+.w-auto {
+    width: auto !important
+}
 
 #mainbanner .btns {
-    bottom: 1rem;
+    /* border: 1px solid #222; */
+    bottom: 168px;
     z-index: 1000;
+    left: 0;
+
     margin: 0 auto;
+    right: 0;
+}
+
+.btns .swiper-pagination {
+    align-items: center;
+}
+
+#mainbanner .btns .swiper-pagination-bullet {
+    border-radius: 0;
+    width: 50px;
+    margin: 0;
+    position: relative;
+    height: 10px;
+    opacity: 1;
+    background-color: transparent;
+}
+
+#mainbanner .btns .swiper-pagination-bullet::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
     left: 0;
     right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: white;
+
+}
+
+
+#mainbanner .btns .swiper-pagination-bullet-active {
+    background-color: transparent;
+}
+
+#mainbanner .btns .swiper-pagination-bullet-active::before {
+    height: 3px;
+}
+
+#mainbanner .swiper-button-next,
+#mainbanner .swiper-button-prev {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 8px;
 }
 
 #mainbanner .swiper-button-next:after,
 #mainbanner .swiper-button-prev:after {
-   color: white;
-   font-size: 1rem;
+    color: white;
+    font-size: 18px;
+
+
 }
 
+/*  타이틀  */
+#mainbanner .content {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    line-height: 1.4;
+}
 
+#mainbanner .content h2,
+#mainbanner .content p {
+    color: white;
+}
+
+#mainbanner .content h2 {
+    font-size: 90px;
+}
+
+#mainbanner .content p {
+    font-size: 35px;
+}
 
 
 /* #Event 영역 */
