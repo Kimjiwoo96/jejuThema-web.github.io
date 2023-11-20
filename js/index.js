@@ -152,4 +152,34 @@ function scrolls(){
 };
 
 
+$("#Comments .CommentsContent .delete").click(function(){
+    if(confirm("댓글을 삭제하시겠습니까?")){
+		alert("댓글이 삭제되었습니다.");
+	}else{
+		
+	}
+});
+
+$("#Comments button").click(function(){
+    if(confirm("댓글을 등록하시겠습니까?")){
+		alert("등록되었습니다");
+	}else{
+		alert("댓글 등록이 취소되었습니다.");
+	}
+});
+
+
+let textLength = 0
+
+$('.txtarea').keyup(function() {
+    textLength = $(this).val().length;
+    document.querySelector(".textLengSpan").innerHTML = textLength;
+});
+
+
+
+
+
+
+
 
