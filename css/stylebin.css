@@ -79,11 +79,11 @@
 }
 
 #mainbanner .bg3 {
-    background-color: rgb(157, 157, 207);
+    background-image: url(../img/main/mainbanner1.png);
 }
 
 #mainbanner .bg4 {
-    background-color: rgb(58, 58, 10);
+    background-image: url(../img/main/mainbanner2.png);
 }
 
 .p-unset {
