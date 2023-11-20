@@ -96,7 +96,7 @@ aside ul li:nth-of-type(3) i{
 #Event .EventCon>section div{
     border:1px solid var(--contents_border_color);
     box-sizing: border-box;
-    padding: 20px 35px;
+    padding: 20px 34px;
 }
 
 #Event .EventCon>section div h3{
