@@ -1,3 +1,4 @@
+$(document).ready(function(){
 
 // #mainbanner swiper
 const swiperMain = new Swiper('#mainbanner .swiper', {
@@ -35,8 +36,8 @@ var swiper = new Swiper("#Tourism .mySwiper", {
   });
 
 
+  
 // #Tourism text
-
 const tourismText=[
     {
         title: "사려니숲길",
@@ -152,6 +153,5 @@ function scrolls(){
     $("body,html").stop(true , true).animate({scrollTop : $("body").offset().top});
 };
 
-
-
+}); //document.ready 끝
 
