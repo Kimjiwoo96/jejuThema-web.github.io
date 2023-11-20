@@ -62,7 +62,6 @@
 
 
 /* 슬라이드 */
-
 #mainbanner .swiper-slide {
     height: 0;
     padding-top: 41%;
@@ -84,7 +83,7 @@
 }
 
 #mainbanner .bg4 {
-    background-color: beige;
+    background-color: rgb(58, 58, 10);
 }
 
 .p-unset {
@@ -170,17 +169,18 @@
 #mainbanner .content h2,
 #mainbanner .content p {
     color: white;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 #mainbanner .content h2 {
-    font-size: 90px;
+    font-size: 67px;
     letter-spacing: -6px;
     opacity: 0;
     animation: showcontent 1s ease-in-out 1 forwards;
 }
 
 #mainbanner .content p {
-    font-size: 35px;
+    font-size: 30px;
     opacity: 0;
     animation: showcontent .9s ease-in-out 1 forwards;
 
