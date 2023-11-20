@@ -1,17 +1,5 @@
-/* common layout */
-/* #wrap > div{
-    margin-bottom: 200px;
-} */
-
 
 /* #hd 영역 */
-
-@font-face {
-    font-family: 'GmarketSansMedium';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 #hd .logo img {
     height: 34px;
@@ -41,26 +29,20 @@
 }
 
 #gnbs {
-
     width: 650px;
     justify-content: space-around;
-
-
 }
 
 #gnbs a {
     line-height: 100px;
-    /* padding-left: 45px; */
     position: relative;
     font-family: 'GmarketSansMedium';
     font-size: 20px;
     padding: 0 5px;
-
 }
 
 #gnbs a:hover {
     color: var(--main_color3);
-
 }
 
 #gnbs a::after {
@@ -76,7 +58,6 @@
 
 #gnbs a:hover::after {
     width: 100%;
-
 }
 
 
@@ -100,12 +81,10 @@
 
 #mainbanner .bg3 {
     background-color: rgb(157, 157, 207);
-    /* background-image: url(../img/main/mainbanner2.png); */
 }
 
 #mainbanner .bg4 {
     background-color: beige;
-    /* background-image: url(../img/main/mainbanner2.png); */
 }
 
 .p-unset {
@@ -151,7 +130,6 @@
     top: 0;
     margin: auto;
     background-color: white;
-
 }
 
 
@@ -176,8 +154,6 @@
 #mainbanner .swiper-button-prev:after {
     color: white;
     font-size: 18px;
-
-
 }
 
 /*  타이틀  */
@@ -259,8 +235,6 @@
     font-size: 14px;
     line-height: 1.3rem;
     top: 75px;
-
-
 }
 
 #mainbanner .apply p strong {
@@ -282,8 +256,6 @@
     font-size: 15px;
     font-weight: 700;
     padding-left: 20px;
-
-
 }
 
 #mainbanner .apply .input-box input {
@@ -331,24 +303,4 @@
 
 #mainbanner .agree label input {
     accent-color: var(--main_color1);
-
-
 }
-
-
-
-/* #Event 영역 */
-
-
-/* #Tourism 영역 */
-
-
-/* #video 영역 */
-
-/* #discountEvent 영역 */
-
-/* #route 영역 */
-
-/* #Comments 영역 */
-
-/* #ft 영역 */
