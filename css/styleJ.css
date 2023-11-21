@@ -315,6 +315,7 @@ aside ul li:nth-of-type(3) i{
 /* #route 영역 */
 
 #route{
+    width: 100vw;
     background-image: url(../img/route/parkImg1.png);
     height: 500px;
     padding: 20px;
@@ -352,6 +353,7 @@ aside ul li:nth-of-type(3) i{
     box-sizing: border-box;
     position: absolute;
     bottom: 120px;
+    left: 0;
     width: 100%;
 }
 
