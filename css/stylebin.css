@@ -71,19 +71,19 @@
 
  
 #mainbanner .bg1 {
-    background-image: url(../img/main/mainbanner1.png);
+    background-image: url(../img/main/mainbanner1.jpg);
 }
 
 #mainbanner .bg2 {
-    background-image: url(../img/main/mainbanner2.png);
+    background-image: url(../img/main/mainbanner2.jpg);
 }
 
 #mainbanner .bg3 {
-    background-image: url(../img/main/mainbanner1.png);
+    background-image: url(../img/main/mainbanner3.jpg);
 }
 
 #mainbanner .bg4 {
-    background-image: url(../img/main/mainbanner2.png);
+    background-image: url(../img/main/mainbanner4.jpg);
 }
 
 .p-unset {
