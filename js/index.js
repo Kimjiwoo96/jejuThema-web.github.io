@@ -152,21 +152,52 @@ function scrolls(){
 };
 
 
-$("#Comments .CommentsContent .delete").click(function(){
+$("#Comments .CommentsContent ").on('click','.delete', function(){
     if(confirm("댓글을 삭제하시겠습니까?")){
 		alert("댓글이 삭제되었습니다.");
+        $(this).parent().parent().remove();
 	}else{
 		
-	}
+	};
 });
 
 $("#Comments button").click(function(){
+
+    var textareaContent = document.querySelector(".txtarea").value;
+    var textareaNickName = document.querySelector(".CommentsNickname").value;
+    const cons = document.querySelector(".CommentsContent");
+
+
+
+    console.log(textareaContent,textareaNickName)
+
+    
     if(confirm("댓글을 등록하시겠습니까?")){
 		alert("등록되었습니다");
+
+        cons.innerHTML +=  `
+    <section class="con">
+        <div class="d-flex aic">
+            <div class="d-flex jcc aic">
+                <p class="nickName">${textareaNickName}</p>
+                <p class="dates">2023.08.23</p>
+            </div>
+            <p class="delete">삭제</p>
+        </div>
+        <div class="CommentsCon">
+            <p>${textareaContent}</p>
+        </div>
+    </section>`
+
+    textareaContent = "";
+    textareaNickName = "";
+
+    console.log(">>>>",textareaContent,textareaNickName)
 	}else{
 		alert("댓글 등록이 취소되었습니다.");
 	}
 });
+
 
 
 let textLength = 0
@@ -175,6 +206,12 @@ $('.txtarea').keyup(function() {
     textLength = $(this).val().length;
     document.querySelector(".textLengSpan").innerHTML = textLength;
 });
+
+
+
+
+
+
 
 
 
