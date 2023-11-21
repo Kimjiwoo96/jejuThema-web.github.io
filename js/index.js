@@ -131,6 +131,17 @@ const tourismText=[
 ];
 
 
+// 오늘날짜 구하기
+var today = new Date();
+var year = today.getFullYear();
+var month = ('0' + (today.getMonth() + 1)).slice(-2);
+var day = ('0' + today.getDate()).slice(-2);
+
+var dateString = year + '-' + month  + '-' + day;
+
+console.log("투데이>>>",month);
+
+
 for(x in tourismText){
     var imgs = "url(" + tourismText[x].img + ")";
 
@@ -161,6 +172,7 @@ $("#Comments .CommentsContent ").on('click','.delete', function(){
 	};
 });
 
+
 $("#Comments button").click(function(){
 
     var textareaContent = document.querySelector(".txtarea").value;
@@ -180,23 +192,23 @@ $("#Comments button").click(function(){
         <div class="d-flex aic">
             <div class="d-flex jcc aic">
                 <p class="nickName">${textareaNickName}</p>
-                <p class="dates">2023.08.23</p>
+                <p class="dates">${dateString}</p>
             </div>
             <p class="delete">삭제</p>
         </div>
         <div class="CommentsCon">
             <p>${textareaContent}</p>
         </div>
-    </section>`
+    </section>`;
 
-    textareaContent = "";
-    textareaNickName = "";
-
-    console.log(">>>>",textareaContent,textareaNickName)
 	}else{
 		alert("댓글 등록이 취소되었습니다.");
 	}
 });
+
+
+
+
 
 
 
