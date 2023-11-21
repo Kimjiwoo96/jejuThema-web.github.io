@@ -314,8 +314,74 @@ aside ul li:nth-of-type(3) i{
 
 /* #route 영역 */
 
-/* #Comments 영역 */
+#route{
+    background-image: url(../img/route/parkImg1.png);
+    height: 500px;
+    padding: 20px;
+    position: relative;
+}
 
+#route *{
+    color: #fff;
+}
+
+#route #cos,#route #cos option{
+    color: #000;
+}
+
+#route #cos{
+    position: absolute;
+    right: 80px;
+    top: -23px
+}
+
+#route #cos select{
+    border: none;
+}
+
+#route h5:last-of-type{
+    margin-bottom: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+#route .routeCon{
+    padding-top: 15px;
+    border-top:1px solid #fff;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
+}
+
+#route ul.routeCons{
+    justify-content: space-around;
+}
+
+
+#route ul.routeCons > li{
+    box-sizing: border-box;
+    position: relative;
+}
+
+#route ul.routeCons > li > i{
+    box-sizing: border-box;
+    position: absolute;
+    width: 40px;
+    bottom: 50px;
+    font-size: 36px;
+    left: calc((100% - 50%) - 20px);
+}
+
+#route ul.routeCons > li:nth-of-type(2) > i{
+    color: var(--main_color3);
+}
+
+
+
+
+/* #Comments 영역 */
 #Comments{
     
 }
@@ -348,6 +414,7 @@ aside ul li:nth-of-type(3) i{
     bottom: 20px;
     right: 13%;
     z-index: 9999;
+    font-size: 14px;
 }
 
 #Comments button{
