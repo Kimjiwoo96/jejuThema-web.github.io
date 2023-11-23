@@ -315,10 +315,7 @@ aside ul li:nth-of-type(3) i{
 /* #route 영역 */
 
 #route{
-<<<<<<< HEAD
     width: 100vw;
-=======
->>>>>>> bine
     background-image: url(../img/route/parkImg1.png);
     height: 500px;
     padding: 20px;
@@ -356,10 +353,7 @@ aside ul li:nth-of-type(3) i{
     box-sizing: border-box;
     position: absolute;
     bottom: 120px;
-<<<<<<< HEAD
     left: 0;
-=======
->>>>>>> bine
     width: 100%;
 }
 
