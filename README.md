@@ -1,11 +1,22 @@
 # team.github.io
 팀 작업(제주 테마 여행)
 
-팀원 : 김지우 , 조혜빈
+[팀원]
+- 김지우: wisejiwoo96@naver.com
+- 조혜빈: berryme015@gmail.com
 
 
-팀프로젝트 깃 주소
+[팀프로젝트 깃 주소]
 https://kimjiwoo96.github.io/team.github.io/
+
+
+[사용 플러그인]
+- swiper v11
+- jQuery 2.x
+- bootstrap 5.3.1
+
+
+
 
 
 
