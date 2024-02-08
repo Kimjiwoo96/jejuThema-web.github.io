@@ -1,5 +1,5 @@
 # team.github.io
-팀 작업(제주 테마 여행)
+팀 작업(제주 테마 여행) - 웹으로 만든 제주
 
 [팀원]
 - 김지우: wisejiwoo96@naver.com
