@@ -12,7 +12,7 @@
 
 
 [팀프로젝트 깃 주소]
-https://kimjiwoo96.github.io/team.github.io/
+https://kimjiwoo96.github.io/jejuThema-web.github.io/
 
 
 
